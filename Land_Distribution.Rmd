@@ -1,0 +1,33 @@
+---
+title: "Land Wealth Distribution in Turkey"
+author: "Alper Duman"
+date: "4/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Land Wealth Distribution in Turkey
+
+There exist no study on wealth distribution on Turkey due to lack of data.
+There are no tax records data, no inheritance data and no survey of wealth.
+In order to examine the wealth distribution in Turkey we use land assets as a proxy for wealth.
+
+## Data Source and Data Preparation
+
+We scrape data from a commercial website and gather data on land sales in Turkey for the period of the first half of March 2021.
+
+
+## Results
+
+Overall we get more than 88 thousand unique sales, location and price data.
+In terms of overall gini in land we find 0.8 and gini in price 0.89.
+
+Moreover we calculate the top 1% share and get 39.4%.
+The share of 0.1% is also very high at 14.47%.
+
+## Discussion and Conclusion
+
+The wealth inequality is among the highest in the world.
